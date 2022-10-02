@@ -776,7 +776,7 @@ def onmessage(update,bot:ObigramClient):
                 # set in debug
             #    api_id = 18403498
             #    api_hash = '2c0b01283b1b67f7087a92cc81cd91f8'
-            #    bot_token = '5432390990:AAFJOmYqXqlh0sy0FCiUK3jdgY9m_CtjewM'
+            #    bot_token = '5432390990:AAFFEgDwIWzxdLV5KWPyt4TgMYdIwqndjyU'
 
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
@@ -877,7 +877,7 @@ def main():
     bot_token = os.environ.get('bot_token')
     print('init bot.')
     #set in debug
-    bot_token = '5432390990:AAFJOmYqXqlh0sy0FCiUK3jdgY9m_CtjewM'
+    bot_token = '5432390990:AAFFEgDwIWzxdLV5KWPyt4TgMYdIwqndjyU'
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
     bot.onCallbackData('/cancel ',cancel)
